@@ -1,0 +1,45 @@
+#test{
+    width:20px;
+    height: 20px;
+    background-color: red;
+}
+#watch-list{
+    /*display: flex;*/
+}
+.item{
+    display: flex;
+    /*flex-direction: column;*/
+    max-height: 70px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    overflow-y: scroll;
+}
+.image{
+    height:60px;
+}
+.img-box, .name, .price, .end {
+    margin-right: 7px;
+    width: 100px;
+}
+.name{
+    width:100px;
+}
+.price{
+    width:50px;
+}
+
+.del-btn{
+    font-size: 19px !important;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.del-btn:hover{
+    color: grey;
+}
+.img-box{
+    width:100px;
+    
+}
